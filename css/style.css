@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.pages li{
+    list-style-type: none;
+    display: inline;
+}
+.pages{
+    text-align: end;
+    position: absolute;
+    top: 100px;
+    right: 550px;
+}
+.botines_index{
+    width:45%;
+    height: 450px;
+    margin-left: 50px;
+}
+
+.novedades_index{
+    font-style: italic;
+
+}
+
+header{
+    font-family: inter, sans-serif;
+}
+.titulo{
+    display: inline;
+    position: absolute;
+    right: 580px;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+}
+
+.logo{
+    width: 150px;
+    height: 150px;
+    display: inline;
+}
+.footer-redes{
+    list-style-type: none;
+}
+
+.redes{
+    width: 48px;
+    height: 48px;
+}
+.footer-redes li{
+    display: inline;
+    margin-bottom: 15px;
+}
+
+.nike_catalogo img{
+    width: 280px;
+    height: 280px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.marcas{
+    font-style: italic;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+}
+.nike_catalogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.titulos_pages{
+    text-align: center;
+    font-weight: bold;
+}
+.genero{
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
