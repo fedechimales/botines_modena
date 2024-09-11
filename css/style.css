@@ -18,7 +18,9 @@ body{
     height: 450px;
     margin-left: 50px;
 }
-
+main{
+    margin-top: 15px;
+}
 .novedades_index{
     font-style: italic;
 
@@ -70,11 +72,13 @@ a{
     text-align: center;
     font-size: 30px;
     font-weight: 400;
+    margin: 10px;
 }
 .nike_catalogo{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-top: 15px;
 }
 .titulos_pages{
     text-align: center;
@@ -83,4 +87,9 @@ a{
 .genero{
     margin-bottom: 2px;
     margin-top: 2px;
+}
+.precio{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
 }
