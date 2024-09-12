@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/styles.css">
     <link rel="shortcut icon" href="../assets/Logo modena.png" type="image/x-icon">
 </head>
 <body>
@@ -40,46 +40,48 @@
             </div>
         </nav>
     </header>
-    <h2 class="titulos_pages">Contacto</h2>
-    <section class="formulario_contacto">
-        <h3>Contanos sobre vos</h3>
-        <form action="" method="post" >
-            <div>
-                <label for="Nombre">Nombre y Apellido</label>
-                <input type="text" name="Nombre" id="Nombre">
-            </div>
-            <div>
-                <label for="Mail">Email</label>
-                <input type="email" name="Mail" id="Mail">
-            </div>
-            <p class="genero">Género</p>
-            <div>
-                <label for="hombre">Masculino</label>
-                    <input type="radio" name="hombre" id="" value="Masculino">
-            </div>
-            <div>
-                <label for="mujer">Femenino</label>
-                <input type="radio" name="mujer" id="" value="Femenino">
-            </div>
-            <div>
-                <label for="otro">Otro / Prefiero no especificar</label>
-                <input type="radio" name="otro" id="" value="otro">
-            </div>
-            <div>
-                <label for="telefono">Telefono</label>
-                <input type="number" name="telefono" id="">
-            </div>
-            <div>
-                <input type="submit" value="Enviar">
-                <input type="reset" value="Limpiar">
-            </div>
-        </form>
-    </section>
-
-    <hr>
+    <main class="container-fluid">
+        <h2 class="titulos_pages">Contacto</h2>
+        <section class="formulario_contacto">
+            <h3>Contanos sobre vos</h3>
+            <form action="" method="post" >
+                <div>
+                    <label for="Nombre">Nombre y Apellido</label>
+                    <input type="text" name="Nombre" id="Nombre">
+                </div>
+                <div>
+                    <label for="Mail">Email</label>
+                    <input type="email" name="Mail" id="Mail">
+                </div>
+                <p class="genero">Género</p>
+                <div>
+                    <label for="hombre">Masculino</label>
+                        <input type="radio" name="hombre" id="" value="Masculino">
+                </div>
+                <div>
+                    <label for="mujer">Femenino</label>
+                    <input type="radio" name="mujer" id="" value="Femenino">
+                </div>
+                <div>
+                    <label for="otro">Otro / Prefiero no especificar</label>
+                    <input type="radio" name="otro" id="" value="otro">
+                </div>
+                <div>
+                    <label for="telefono">Telefono</label>
+                    <input type="number" name="telefono" id="">
+                </div>
+                <div>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpiar">
+                </div>
+            </form>
+        </section>
+        <h3 class="terminos_contacto">Terminos y condiciones</h3>
+        <p>Al enviar este formulario, usted acepta recibir correos electrónicos promocionales de nuestra parte. Nos comprometemos a utilizar su dirección de correo electrónico únicamente para enviarle información relevante sobre nuestros productos, ofertas especiales y actualizaciones.</p>
+    </main>
     <footer>
         <ul class="footer-redes">
-            <li>
+            <li class="redes">
                 <a href="https://www.instagram.com/"> 
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/480px-Instagram_logo_2016.svg.png" alt="Instagram" class="redes">
                 </a>

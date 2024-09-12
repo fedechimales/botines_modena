@@ -1,0 +1,85 @@
+body{
+    background-color: $fondobody;
+    color: white;
+    a{
+        text-decoration: none;
+        color: black;
+        font-size: larger;
+    }
+}
+header{
+background-color: $fondoheaderyfooter;
+    .logo{
+        width: 150px;
+        height: 150px;
+        display: inline;
+    }
+}
+main{
+    margin-top: 35px;
+    .novedades_index{
+        font-style: italic;
+    }
+    .botines_index{
+        width: 45%;
+        height: 450px;
+        margin-left: 25px;
+    }
+    p{
+        margin-top: 10px;
+        .precio{
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+        }
+    }
+    .nike_catalogo{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 15px;
+        img{
+            width: 280px;
+            height: 280px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+    }
+    .marcas{
+        font-style: italic;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 400;
+        margin: 10px;
+    }
+    .titulos_pages{
+        text-align: center;
+        font-weight: bold;
+        margin-top: 15px;
+    }
+    .formulario_contacto{
+        margin-left: 15px;
+        .genero{
+            margin-top: 2px;
+            margin-bottom: 3px;
+        }
+    }
+    .terminos_contacto{
+        margin-top: 15px;
+    }
+}
+
+
+footer{
+    background-color: $fondoheaderyfooter;
+    margin-top: 25px;
+    .redes{
+        list-style-type: none;
+        display: inline-block;
+        flex-direction: row;
+        margin-bottom: 15px;
+        margin-top: 10px;
+        width: 48px;
+        height: 48px;
+        margin-left: 15px;
+    }
+}
