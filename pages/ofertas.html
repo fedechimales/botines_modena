@@ -10,59 +10,113 @@
 </head>
 <body>
     <header>
-        <a href="../index.html">
-            <img src="../assets/Logo modena.png" alt="logo modena" class="logo">
-        </a>
-        <div class="titulo">
-            <h1>Modena Botines</h1>
-        </div>
-        <nav>
-            <ul class="pages">
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="catalogo.html">Catalogo</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-                <li><a href="nosotros.html">Nosotros</a></li>
-                <li><a href="#">ofertas</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary bg-light">
+            <img src="../assets/Logo modena.png" alt="logo modena" class="logo d-inline-block align-text-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">Botines Modena</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="catalogo.html">Catalogo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="ofertas.html">Ofertas</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+            </div>
+            </div>
         </nav>
     </header>
     <main class="container-fluid">
-        <h1 class="titulos_pages">Productos</h1>
-        <h2 class="marcas">Nike</h2>
+        <h2 class="titulos_pages">Ofertas</h2>
+        <h3 class="marcas">Nike</h3>
         <section class="nike_catalogo col">
-            <a href="https://www.prodirectsport.es/p/nike-air-zoom-mercurial-superfly-x-elite-fg-multicolor-botas-para-hombre-1018976/" target="_blank">
-                <img src="../assets/safari.jpg" alt="safari_merc">
-            </a>
-            <a href="https://www.prodirectsport.es/p/nike-phantom-luna-ii-elite-fg-puesta-de-sol-negro-botas-para-hombre-1015921/" target="_blank">
-                <img src="../assets/phantomrosas.png" alt="phantom rosas">
-            </a>
-            <a href="https://www.prodirectsport.es/p/nike-air-zoom-mercurial-superfly-x-elite-sg-pro-negro-negro-jungla-botas-para-hombre-1019071/" target="_blank">
-                <img src="../assets/mercurialnegros.png" alt="merc negros">
-            </a>
-            <a href="https://www.prodirectsport.es/p/nike-air-zoom-mercurial-vapor-xvi-elite-fg-azul-glaciar-azul-%C3%B3rbita-botas-para-hombre-1019003/" target="_blank">
-                <img src="../assets/vaporazulesyblancos.png" alt="vapor rosas">
-            </a>
+            <div>
+                <a href="https://www.prodirectsport.es/p/nike-air-zoom-mercurial-superfly-x-elite-fg-multicolor-botas-para-hombre-1018976/" target="_blank">
+                    <img src="../assets/mercurialazulyblanco.png" alt="safari_merc">
+                </a>
+                <p class="precio"><del>$410.000</del></p>
+                <p class="precio">$300.000</p>
+                <a href="contacto.html" class="btn btn-warning precio">Consultar</a>
+            </div>
+            <div>
+                <a href="https://www.prodirectsport.es/p/nike-phantom-luna-ii-elite-fg-puesta-de-sol-negro-botas-para-hombre-1015921/" target="_blank">
+                    <img src="../assets/phantommulti.png" alt="phantom rosas">
+                </a>
+                <p class="precio"><del>$390.000</del></p>
+                <p class="precio">$355.000</p>
+                <a href="contacto.html" class="btn btn-warning precio">Consultar</a>
+            </div>
+            <div>
+                <a href="https://www.prodirectsport.es/p/nike-air-zoom-mercurial-superfly-x-elite-sg-pro-negro-negro-jungla-botas-para-hombre-1019071/" target="_blank">
+                    <img src="../assets/mercrosas.png" alt="merc negros">
+                </a>
+                <p class="precio"><del>$405.000</del></p>
+                <p class="precio">$310.000</p>
+                <a href="contacto.html" class="btn btn-warning precio">Consultar</a>
+            </div>
+            <div>
+                <a href="https://www.prodirectsport.es/p/nike-air-zoom-mercurial-vapor-xvi-elite-fg-azul-glaciar-azul-%C3%B3rbita-botas-para-hombre-1019003/" target="_blank">
+                    <img src="../assets/phantomazules.png" alt="vapor rosas">
+                </a>
+                <p class="precio"><del>$400.000</del></p>
+                <p class="precio">$330.000</p>
+                <a href="contacto.html" class="btn btn-warning precio">Consultar</a>
+            </div>
         </section>
-        <h2 class="marcas">Adidas</h2>
+        <h3 class="marcas">Adidas</h3>
         <section class="nike_catalogo col">
-            <a href="https://www.prodirectsport.es/p/nike-air-zoom-mercurial-superfly-x-elite-fg-multicolor-botas-para-hombre-1018976/" target="_blank">
-                <img src="../assets/safari.jpg" alt="safari_merc">
-            </a>
-            <a href="https://www.prodirectsport.es/p/nike-phantom-luna-ii-elite-fg-puesta-de-sol-negro-botas-para-hombre-1015921/" target="_blank">
-                <img src="../assets/phantomrosas.png" alt="phantom rosas">
-            </a>
-            <a href="https://www.prodirectsport.es/p/nike-air-zoom-mercurial-superfly-x-elite-sg-pro-negro-negro-jungla-botas-para-hombre-1019071/" target="_blank">
-                <img src="../assets/mercurialnegros.png" alt="merc negros">
-            </a>
-            <a href="https://www.prodirectsport.es/p/nike-air-zoom-mercurial-vapor-xvi-elite-fg-azul-glaciar-azul-%C3%B3rbita-botas-para-hombre-1019003/" target="_blank">
-                <img src="../assets/vaporazulesyblancos.png" alt="vapor rosas">
-            </a>
+            <div>
+                <a href="https://www.prodirectsport.es/p/adidas-11pro-x-toni-kroos-fg-nube-blanco-negro-dorado-metalizado-botas-para-hombre-1014342/" target="_blank">
+                    <img src="../assets/predatoramarillos.png" alt="kroos">
+                </a>
+                <p class="precio"><del>$400.000</del></p>
+                <p class="precio">$325.000</p>
+                <a href="contacto.html" class="btn btn-warning precio">Consultar</a>
+            </div>
+            <div>
+                <a href="https://www.prodirectsport.es/p/adidas-f50-elite-sin-cordones-fg-casi-azul-azul-semil%C3%BAcido-semi-amarillo-solar-botas-para-hombre-1018808/" target="_blank">
+                    <img src="../assets/f50rosas.png" alt="f50 amarillos y azules">
+                </a>
+                <p class="precio"><del>$390.000</del></p>
+                <p class="precio">$335.000</p>
+                <a href="contacto.html" class="btn btn-warning precio">Consultar</a>
+            </div>
+            <div>
+                <a href="https://www.prodirectsport.es/p/adidas-f50-elite-sin-cordones-fg-negro-hierro-met-dorado-met-botas-para-hombre-1018706/" target="_blank">
+                    <img src="../assets/copablancos.png" alt="f50 negros">
+                </a>
+                <p class="precio"><del>$385.000</del></p>
+                <p class="precio">$315.000</p>
+                <a href="contacto.html" class="btn btn-warning precio">Consultar</a>
+            </div>
+            <div>
+                <a href="https://www.prodirectsport.es/p/adidas-predator-elite-laced-fg-blanco-negro-dorado-met-botas-para-hombre-1011299/" target="_blank">
+                    <img src="../assets/predatorrosas.png" alt="predatordorados">
+                </a>
+                <p class="precio"><del>$400.000</del></p>
+                <p class="precio">$350.000</p>
+                <a href="contacto.html" class="btn btn-warning precio">Consultar</a>
+            </div>
         </section>
     </main>
 
 
 
-    <hr>
+<hr>
     <footer>
         <ul class="footer-redes">
             <li>
@@ -72,7 +126,7 @@
             </li>
             <li class="redes">
                 <a href="https://x.com/home?lang=es"> 
-                    <img src="https://i.pinimg.com/originals/8e/72/f7/8e72f7331b652b842b0c271ab144d332.png" alt="Twitter" class="redes">
+                    <img src="../assets/icons8-twitter-50.png" alt="Twitter" class="redes">
                 </a>
             </li>
             <li class="redes">

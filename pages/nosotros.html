@@ -10,38 +10,51 @@
 </head>
 <body>
     <header>
-        <a href="../index.html">
-            <img src="../assets/Logo modena.png" alt="logo modena" class="logo">
-        </a>
-        <div class="titulo">
-            <h1>Modena Botines</h1>
-        </div>
-        <nav>
-            <ul class="pages">
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="catalogo.html">Catalogo</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-                <li><a href="#">Nosotros</a></li>
-                <li><a href="ofertas.html">Ofertas</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary bg-light">
+            <img src="../assets/Logo modena.png" alt="logo modena" class="logo d-inline-block align-text-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">Botines Modena</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="catalogo.html">Catalogo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="ofertas.html">Ofertas</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+            </div>
+            </div>
         </nav>
     </header>
-    <hr>
-    <main>
+    <main class="main_nosotros">
         <h2 class="titulos_pages">¿Quienes somos?</h2>
         <p>Somos un emprendimiento en el que nos dedicamos a vender botines importados desde USA con los mejores precios para que se terminen tus problemas de no encontrar botines con relación precio/calidad en el país. </p>
+    
+        <section class="ubicacion">
+            <h2>¿Donde estamos?</h2>
+            <div class="ubicacion_iframe">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.888017552962!2d-58.46161259878811!3d-34.556390599999986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb42bb8a4f2e9%3A0xca413ee21831f6cd!2sFranklin%20D.%20Roosevelt%202265%2C%20C1428%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1722959642935!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div>
+                <p>Estamos ubicados en Franklin D. Roosevelt 2265</p>
+                <h3>Vení a visitarnos!</h3>
+            </div>
+        </section>
     </main>
-    <section class="ubicacion">
-        <h2>¿Donde estamos?</h2>
-        <div class="ubicacion_iframe">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.888017552962!2d-58.46161259878811!3d-34.556390599999986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb42bb8a4f2e9%3A0xca413ee21831f6cd!2sFranklin%20D.%20Roosevelt%202265%2C%20C1428%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1722959642935!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-        <div>
-            <p>Estamos ubicados en Franklin D. Roosevelt 2265</p>
-            <h3>Vení a visitarnos!</h3>
-        </div>
-
-    </section>
     <hr>
     <footer>
         <ul class="footer-redes">
@@ -52,7 +65,7 @@
             </li>
             <li class="redes">
                 <a href="https://x.com/home?lang=es"> 
-                    <img src="https://i.pinimg.com/originals/8e/72/f7/8e72f7331b652b842b0c271ab144d332.png" alt="Twitter" class="redes">
+                    <img src="../assets/icons8-twitter-50.png" alt="Twitter" class="redes">
                 </a>
             </li>
             <li class="redes">
